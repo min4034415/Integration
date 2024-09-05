@@ -15,6 +15,7 @@ struct LocationView: View {
                     } label: {
                         Text("Lat: \(location.latitude), Lon: \(location.longitude)")
                     }
+                    
                 }
                 .onDelete(perform: deleteLocations)
             }
