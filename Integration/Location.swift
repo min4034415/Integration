@@ -1,11 +1,3 @@
-//
-//  Location.swift
-//  Integration
-//
-//  Created by Ouimin Lee on 9/4/24.
-//
-
-import Foundation
 import SwiftData
 import CoreLocation
 
@@ -13,7 +5,7 @@ import CoreLocation
 final class Location {
     var latitude: Double
     var longitude: Double
-    
+
     var coordinate: CLLocationCoordinate2D {
         get {
             return CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
@@ -24,9 +16,8 @@ final class Location {
         }
     }
     
-    init(location: CLLocationCoordinate2D) {
-        self.latitude = location.latitude
-        self.longitude = location.longitude
+    init(latitude: Double, longitude: Double) {
+        self.latitude = latitude
+        self.longitude = longitude
     }
 }
-

@@ -36,7 +36,7 @@ struct LocationView: View {
     private func addLocation() {
         withAnimation {
             // You can replace the coordinates with any default or random values
-            let newLocation = Location(location: CLLocationCoordinate2D(latitude: 37.7749, longitude: -122.4194))
+            let newLocation = Location(latitude: 37.7749, longitude: -122.4194) // Example coordinates
             modelContext.insert(newLocation)
         }
     }
