@@ -11,10 +11,22 @@ import MapKit
 
 @main
 struct IntegrationApp: App {
-        var body: some Scene {
-            WindowGroup {
+    var body: some Scene {
+        WindowGroup {
+            TabView{
                 LocationView()
                     .modelContainer(for: Location.self)
+                    .tabItem {
+                        Label("Trash", systemImage: "trash.fill")
+                            .foregroundColor(.yellow)
+                    }
+                SuperNovaView()
+                    .modelContainer(for: Location.self)
+                    .tabItem {
+                        Label("Learn", systemImage: "star.fill")
+                            .foregroundColor(.gray) // Color change on selection
+                    }
             }
         }
     }
+}
