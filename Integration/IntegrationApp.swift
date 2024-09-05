@@ -7,6 +7,7 @@
 
 import SwiftUI
 import SwiftData
+import MapKit
 
 @main
 struct IntegrationApp: App {
@@ -25,7 +26,7 @@ struct IntegrationApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LocationView()
         }
         .modelContainer(sharedModelContainer)
     }
