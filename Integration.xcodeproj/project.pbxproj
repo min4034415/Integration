@@ -15,6 +15,7 @@
 		D68F50AD2C883ABD00E9E714 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68F50AC2C883ABD00E9E714 /* Location.swift */; };
 		D68F50AF2C883BF200E9E714 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68F50AE2C883BF200E9E714 /* LocationManager.swift */; };
 		D68F50B12C883DD700E9E714 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68F50B02C883DD700E9E714 /* LocationView.swift */; };
+		D68F50B32C89559200E9E714 /* SuperNova.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68F50B22C89559200E9E714 /* SuperNova.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		D68F50AC2C883ABD00E9E714 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		D68F50AE2C883BF200E9E714 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		D68F50B02C883DD700E9E714 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		D68F50B22C89559200E9E714 /* SuperNova.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperNova.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				D68F507D2C88392800E9E714 /* IntegrationApp.swift */,
 				D68F507F2C88392800E9E714 /* ContentView.swift */,
 				D68F50B02C883DD700E9E714 /* LocationView.swift */,
+				D68F50B22C89559200E9E714 /* SuperNova.swift */,
 				D68F50812C88392800E9E714 /* Item.swift */,
 				D68F50AC2C883ABD00E9E714 /* Location.swift */,
 				D68F50AE2C883BF200E9E714 /* LocationManager.swift */,
@@ -155,6 +158,7 @@
 				D68F50AF2C883BF200E9E714 /* LocationManager.swift in Sources */,
 				D68F50AD2C883ABD00E9E714 /* Location.swift in Sources */,
 				D68F507E2C88392800E9E714 /* IntegrationApp.swift in Sources */,
+				D68F50B32C89559200E9E714 /* SuperNova.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
