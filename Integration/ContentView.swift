@@ -33,6 +33,11 @@ struct ContentView: View {
                         Label("Add Item", systemImage: "plus")
                     }
                 }
+//                ToolbarItem {
+//                    Button(action: updateItem) {
+//                        Label("Add Item", systemImage: "pencil")
+//                    }
+//                }
             }
         } detail: {
             Text("Select an item")
@@ -53,6 +58,31 @@ struct ContentView: View {
             }
         }
     }
+//    
+//    private func updateItem(at index: Int, withNewTimestamp newTimestamp: Date) {
+//        withAnimation {
+//            // Check if the index is within the valid range
+//            guard index >= 0 && index < items.count else { return }
+//            
+//            // Get the item to update
+//            let itemToUpdate = items[index]
+//            
+//            // Update the item's timestamp
+//            itemToUpdate.timestamp = newTimestamp
+//            
+//            // Update the item in the context
+////            modelContext.update(itemToUpdate)
+//            
+//            // Optionally: Save changes to the context
+//            do {
+//                try modelContext.save()
+//            } catch {
+//                // Handle the error (e.g., show an alert or log it)
+//                print("Failed to save context: \(error.localizedDescription)")
+//            }
+//        }
+//    }
+//    
 }
 
 #Preview {

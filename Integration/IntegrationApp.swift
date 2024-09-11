@@ -26,6 +26,12 @@ struct IntegrationApp: App {
                         Label("Learn", systemImage: "star.fill")
                             .foregroundColor(.gray) // Color change on selection
                     }
+                AespaView()
+                    .modelContainer(for: Location.self)
+                    .tabItem {
+                        Label("Learn", systemImage: "pencil.circle.fill")
+                            .foregroundColor(.gray) // Color change on selection
+                    }
             }
         }
     }

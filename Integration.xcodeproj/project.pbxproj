@@ -16,6 +16,7 @@
 		D68F50AF2C883BF200E9E714 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68F50AE2C883BF200E9E714 /* LocationManager.swift */; };
 		D68F50B12C883DD700E9E714 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68F50B02C883DD700E9E714 /* LocationView.swift */; };
 		D68F50B32C89559200E9E714 /* SuperNova.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68F50B22C89559200E9E714 /* SuperNova.swift */; };
+		D68F50B52C89894C00E9E714 /* Aespa.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68F50B42C89894C00E9E714 /* Aespa.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		D68F50AE2C883BF200E9E714 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		D68F50B02C883DD700E9E714 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
 		D68F50B22C89559200E9E714 /* SuperNova.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperNova.swift; sourceTree = "<group>"; };
+		D68F50B42C89894C00E9E714 /* Aespa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aespa.swift; sourceTree = "<group>"; };
+		D68F50B62C898E9100E9E714 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,10 +64,12 @@
 		D68F507C2C88392800E9E714 /* Integration */ = {
 			isa = PBXGroup;
 			children = (
+				D68F50B62C898E9100E9E714 /* Info.plist */,
 				D68F507D2C88392800E9E714 /* IntegrationApp.swift */,
 				D68F507F2C88392800E9E714 /* ContentView.swift */,
 				D68F50B02C883DD700E9E714 /* LocationView.swift */,
 				D68F50B22C89559200E9E714 /* SuperNova.swift */,
+				D68F50B42C89894C00E9E714 /* Aespa.swift */,
 				D68F50812C88392800E9E714 /* Item.swift */,
 				D68F50AC2C883ABD00E9E714 /* Location.swift */,
 				D68F50AE2C883BF200E9E714 /* LocationManager.swift */,
@@ -152,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D68F50B52C89894C00E9E714 /* Aespa.swift in Sources */,
 				D68F50802C88392800E9E714 /* ContentView.swift in Sources */,
 				D68F50B12C883DD700E9E714 /* LocationView.swift in Sources */,
 				D68F50822C88392800E9E714 /* Item.swift in Sources */,
@@ -295,6 +301,8 @@
 				DEVELOPMENT_TEAM = Q89MF97WT7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Integration/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your app needs access to your location to provide location-based services.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -324,6 +332,8 @@
 				DEVELOPMENT_TEAM = Q89MF97WT7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Integration/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your app needs access to your location to provide location-based services.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

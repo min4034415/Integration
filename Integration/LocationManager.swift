@@ -1,8 +1,8 @@
 //
 //  LocationManager.swift
-//  Integration
+//  GettingUserLocation
 //
-//  Created by Ouimin Lee on 9/4/24.
+//  Created by Neto Lobo on 29/02/24.
 //
 
 import Foundation
