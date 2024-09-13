@@ -69,11 +69,8 @@ struct AespaView: View {
     
     private func addCurrentLocation() {
         withAnimation {
-            if let currentLocation = locationManager.lastKnownLocation {
-                // Create a new Location using the current coordinates
-                let newLocation = Location(latitude: currentLocation.latitude, longitude: currentLocation.longitude)
-                modelContext.insert(newLocation)
-            }
+            let coordinate = locationManager.lastKnownLocation
+            modelContext.insert(Location(latitude: coordinate!.latitude, longitude: coordinate!.longitude))
         }
     }
     

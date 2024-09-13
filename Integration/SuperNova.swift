@@ -6,7 +6,7 @@ import MapKit
 struct SuperNovaView: View {
     @Environment(\.modelContext) private var modelContext
     @Query private var locations: [Location]
-
+    
     var body: some View {
         NavigationSplitView {
             List {
@@ -44,6 +44,7 @@ struct SuperNovaView: View {
         withAnimation {
             // You can replace the coordinates with any default or random values
 //            let newLocation = Location(latitude: 37.7749, longitude: -122.4194) // Example coordinates
+//            let newLocation = Location(latitude: 48.8580, longitude: 2.2946) // Example coordinates
             let newLocation = Location(latitude: 48.8580, longitude: 2.2946) // Example coordinates
             modelContext.insert(newLocation)
         }

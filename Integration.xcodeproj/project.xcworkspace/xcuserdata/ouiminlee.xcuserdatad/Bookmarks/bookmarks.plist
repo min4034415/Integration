@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>top-level-items</key>
+	<array>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>EndingColumnNumber</key>
+					<string>104</string>
+					<key>EndingLineNumber</key>
+					<string>40</string>
+					<key>StartingColumnNumber</key>
+					<string>12</string>
+					<key>StartingLineNumber</key>
+					<string>40</string>
+					<key>Timestamp</key>
+					<string>747811751.941807</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>Integration/LocationView.swift</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>text-context</key>
+			<dict>
+				<key>focused</key>
+				<string>let newLocation = Location(latitude: 48.858093, longitude: -2.294694) // Example coordinates</string>
+				<key>leading</key>
+				<string>            // You can replace the coordinates with any default or random values
+//            let newLocation = Location(latitude: 37.7749, longitude: -122.4194) // Example coordinates
+            </string>
+				<key>trailing</key>
+				<string>
+            modelContext.insert(newLocation)
+        }
+</string>
+			</dict>
+			<key>title</key>
+			<string>여기 고쳐야돼용</string>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>EndingColumnNumber</key>
+					<string>0</string>
+					<key>EndingLineNumber</key>
+					<string>47</string>
+					<key>StartingColumnNumber</key>
+					<string>0</string>
+					<key>StartingLineNumber</key>
+					<string>46</string>
+					<key>Timestamp</key>
+					<string>747815591.602313</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>Integration/SuperNova.swift</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>text-context</key>
+			<dict>
+				<key>focused</key>
+				<string>//            let newLocation = Location(latitude: 48.8580, longitude: 2.2946) // Example coordinates
+</string>
+				<key>leading</key>
+				<string>            // You can replace the coordinates with any default or random values
+//            let newLocation = Location(latitude: 37.7749, longitude: -122.4194) // Example coordinates
+</string>
+				<key>trailing</key>
+				<string>            let newLocation = Location(latitude: 48.8580, longitude: 2.2946) // Example coordinates
+            modelContext.insert(newLocation)
+        }
+</string>
+			</dict>
+			<key>title</key>
+			<string>여기 고치기 고치면 될듯</string>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+	</array>
+</dict>
+</plist>
